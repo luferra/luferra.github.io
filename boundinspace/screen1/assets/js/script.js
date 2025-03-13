@@ -94,7 +94,7 @@ function changeBackground(time) {
   setInterval(() => {
       console.log("change");
       const randomNumber = Math.floor(Math.random() * 4);
-      document.body.style.backgroundImage = `url(${randomNumber}.png)`;
+      document.body.style.backgroundImage = `url(assets/img/${randomNumber}.png)`;
       counter++;
      
   }, time);
