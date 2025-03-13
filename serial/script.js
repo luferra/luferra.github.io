@@ -87,7 +87,6 @@ if (vibration === "high4") {
 } else {
     console.log("dentro low4");
 }
-
     
 }
 
@@ -97,26 +96,9 @@ function changeBackground(time) {
       const randomNumber = Math.floor(Math.random() * 4);
       document.body.style.backgroundImage = `url(${randomNumber}.png)`;
       counter++;
-      // music(counter);
-      // music2(counter);
+     
   }, time);
 }
 
-
-function music(count){
-    console.log("here");
-    if (count%5) {
-        sound.play();
-      } else {
-        sound.stop();
-      }
-}
-function music2(count){
-    console.log("here");
-    if (count%2) {
-        sound2.play();
-      } else {
-        sound2.pause();
-      }
-}
+changeBackground(timer);
 
