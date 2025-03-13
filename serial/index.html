@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bound</title>
+    <script src="assets/WebSerialAPI_library.js" defer></script>
+    <script src="assets/WebSerialAPI_ui.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="assets/WebSerialAPI_style.css">
+</head>
+<body>
+    <style>
+        body {
+            background-image: url("0.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <audio id="sound1" style="display: none;" controls>
+        <source src="../music/soundtrack/Jon Shuemaker - Turnin' Knobs.mp3" type="video/mp4" />
+    </audio>
+    <audio id="sound2" style="display: none;" controls>
+        <source src="../music/noise/Jon Shuemaker - The Boom Coming From The Box.mp3" type="video/mp4" />
+    </audio>
+    <audio id="sound3" style="display: none;" controls>
+        <source src="../music/soundtrack/Jon Shuemaker - Icarus Engage.mp3" type="video/mp4" />
+    </audio>
+    <audio id="sound4" style="display: none;" controls>
+        <source src="../music/noise/Jon Shuemaker - Pledge Allegiance to The Grit.mp3" type="video/mp4" />
+    </audio>
+    
+    <div id="support_status"></div>
+
+    <div id="serial_control_bar">
+        <button id="button_start_serial">Start Serial Communication</button>
+        <button id="button_stop_serial">Stop Serial Communication</button>
+        <div id="serial_logger_container"></div>
+    </div>
+
+    <div id="menu">&#9881;</div>
+</body>
+</html>
