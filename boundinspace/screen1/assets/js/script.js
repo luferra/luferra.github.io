@@ -93,8 +93,8 @@ if (vibration === "high4") {
 function changeBackground(time) {
   setInterval(() => {
       console.log("change");
-      const randomNumber = Math.floor(Math.random() * 4);
-      document.body.style.backgroundImage = `url(assets/img/${randomNumber}.png)`;
+      const randomNumber = Math.floor(Math.random() * 10);
+      document.body.style.backgroundImage = `url(assets/img/${randomNumber}.webp)`;
       counter++;
      
   }, time);
