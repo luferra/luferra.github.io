@@ -1,3 +1,10 @@
+window.addEventListener("popstate", function(e) {
+  if (location.pathname != "/index.html") {
+    location.replace("/index.html");
+  }
+});
+
+
 document.querySelector(".site-footer").innerHTML = `
 <div class="container">
 
