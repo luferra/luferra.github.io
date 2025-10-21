@@ -358,7 +358,7 @@ a.button:hover {
     display: block;
     width: 0;
     height: 15px;
-    background-color: #2296f3;
+    background-color: #b6df1e;
     transition: width .3s;
     position: absolute;
     left: 30px;
@@ -494,7 +494,7 @@ a.button:hover {
 }
 
 #header-main-menu .search-field:focus {
-    border-bottom: 5px solid #2296f3;
+    border-bottom: 5px solid #b6df1e;
 }
 
 #header-main-menu .search-field::-webkit-input-placeholder {
@@ -550,7 +550,7 @@ a.button:hover {
 }
 
 .menu-right-text .menu-text a {
-    color: #2296f3;
+    color: #b6df1e;
 }
 
 .menu-right-text .menu-text a:hover {
@@ -558,7 +558,7 @@ a.button:hover {
 }
 
 p.menu-text-title {
-    color: #2296f3;
+    color: #b6df1e;
     font-size: 13px;
     letter-spacing: 5px;
     font-weight: 700;
@@ -765,7 +765,7 @@ p.menu-text-title {
 }
 
 .horizontal-slider .carousel-cat-links ul li a {
-    background-color: #2296f3;
+    background-color: #b6df1e;
     padding: 10px 15px 10px 19px;
     font-size: 12px;
     text-transform: uppercase;
@@ -946,7 +946,7 @@ p.menu-text-title {
     position: absolute;
     bottom: -20px;
     opacity: 0;
-    background-color: #2296f3;
+    background-color: #b6df1e;
     color: #fff;
     padding: 10px;
     transition: all .3s ease;
@@ -1045,18 +1045,6 @@ li.coco-gallery-item.b-w img {
 }
 
 .blog-item-holder .post-thumbnail {
-    position: fixed;
-    width: 50vw;
-    height: 100vh;
-    right: 0;
-    top: 0;
-    opacity: 0;
-    transition: all .3s ease;
-    text-align: center;
-    visibility: hidden;
-    overflow: hidden;
-}
-.blog-item-holder .post-thumbnail2 {
     position: fixed;
     width: 50vw;
     height: 100vh;
@@ -1181,7 +1169,7 @@ li.coco-gallery-item.b-w img {
     left: -40px;
     width: 3px;
     height: 100%;
-    background-color: #2296f3;
+    background-color: #b6df1e;
 }
 
 .single-post .post-info-wrapper a {
@@ -1267,14 +1255,14 @@ li.coco-gallery-item.b-w img {
 }
 
 .single .nav-links > a {
-    background-color: #2296f3;
+    background-color: #b6df1e;
     padding: 25px 35px;
     display: block;
     margin: 0;
 }
 
 .single .nav-links > a:hover {
-    background-color: #68bbf9;
+    background-color: #c0ec2e;
 }
 
 .single .nav-links > a span {
