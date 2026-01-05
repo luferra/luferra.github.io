@@ -1018,11 +1018,11 @@ li.coco-gallery-item.b-w img {
 .blog-holder {
     width: calc(50vw - 200px);
     margin-top: 10%;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .blog-item-holder {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -1030,7 +1030,7 @@ li.coco-gallery-item.b-w img {
     display: flex;
     width: 100%;
     position: relative;
-    padding: 35px 0;
+    padding: 10px 0;
     align-items: center;
     overflow: hidden; 
 }
@@ -1084,7 +1084,7 @@ li.coco-gallery-item.b-w img {
 .blog-item-holder .entry-info {
     font-size: 10px;
     margin-right: 20px;
-    min-width: 150px;
+    min-width: 200px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-left: 20px;

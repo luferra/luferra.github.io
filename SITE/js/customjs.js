@@ -26,7 +26,7 @@ function printMenu() {
                     </div>
                     <br>
                     <br>
-                    <a class="socail-text" href="#">LI.</a>
+                    <a class="socail-text" href="https://www.linkedin.com/in/luca-f-86902a85/">IN.</a>
                 </div>`
     } else {
         console.error('Target element not found');
