@@ -29,9 +29,9 @@
     //Fix Page Split Background Image
     pageSplitBackgroundImage();
     
-    $('.contact-form [type="submit"]').on('click',function(){
-        SendMail(); 
-    });
+    // $('.contact-form [type="submit"]').on('click',function(){
+    //     SendMail(); 
+    // });
 
     //Fix for default menu
     $(".default-menu ul:first").addClass('sm sm-clean main-menu');
