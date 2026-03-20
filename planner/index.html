@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Planner Multisport Luca</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Allenamenti Luca</h1>
+    <div class="controls">
+      <label for="sportFilter">
+        Filtra per sport:
+        <select id="sportFilter">
+            <option value="all">Tutti</option>
+            <option value="bici">🚴‍♂️ Bici</option>
+            <option value="nuoto">🏊‍♂️ Nuoto</option>
+            <option value="corsa">🏃‍♂️ Corsa</option>
+        </select>
+        </label>
+      <label class="file-label">
+        Importa JSON
+        <input type="file" id="fileInput" accept="application/json" multiple>
+      </label>
+    </div>
+  </header>
+
+  <main id="weeksContainer" class="weeks"></main>
+
+  <template id="weekTemplate">
+    <section class="week">
+      <header class="week__header">
+        <h2 class="week__title"></h2>
+      </header>
+      <div class="week__grid">
+        <!-- giorni -->
+      </div>
+    </section>
+  </template>
+
+  <template id="dayTemplate">
+    <article class="day">
+      <h3 class="day__name"></h3>
+      <p class="day__content"></p>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "range": "23-29 MAR",
+    "days": {
+      "Lunedì": "RIPOSO o RULLI Z1 20’- 30’",
+      "Martedì": "NUOTO MASTER",
+      "Mercoledì": "RULLI Z2 70’-90’",
+      "Giovedì": "CL-CM 10-12KM",
+      "Venerdì": "RIPOSO",
+      "Sabato": "BICI 5-6 ORE D+ 1.500-2.000",
+      "Domenica": "BICI 5-6 ORE D+ 1.500-2.000"
+    }
+  },
+  {
+    "range": "30 MAR – 5 APR",
+    "days": {
+      "Lunedì": "RIPOSO",
+      "Martedì": "NUOTO MASTER",
+      "Mercoledì": "CL-CM 10-12KM",
+      "Giovedì": "RULLI RISC+ [ 10 X 30” A BOMBA + 30” Z1] + REC 10’ + [ 10 X 1’ FORTE +1’ Z1] + Z1 5’ + 2 X 10’ Z4 REC 5’ Z1",
+      "Venerdì": "RIPOSO",
+      "Sabato": "BICI 5-6 ORE D+ 1.500-2.000",
+      "Domenica": "CORSA A PIACERE o BICI LEGGERA"
+    }
+  },
+  {
+    "range": "6-12 APR",
+    "days": {
+      "Lunedì": "RIPOSO o CORSA LEGGERA A PIACERE",
+      "Martedì": "NUOTO MASTER",
+      "Mercoledì": "RULLI RISC+ [ 10 X 30” A BOMBA + 30” Z1] + REC 10’ + [ 10 X 1’ FORTE +1’ Z1] + Z1 5’ + 2 X 10’ Z4 REC 5’ Z1",
+      "Giovedì": "CL-CM 10-12KM",
+      "Venerdì": "NUOTO 19:30",
+      "Sabato": "NUOTO UNIVERSITA’",
+      "Domenica": "BICI 5-6 ORE D+ 1.500-2.000"
+    }
+  },
+  {
+    "range": "13-19 APR",
+    "days": {
+      "Lunedì": "RIPOSO o RULLI Z1 20’- 30’",
+      "Martedì": "NUOTO MASTER",
+      "Mercoledì": "RULLI Z2 70’-90’",
+      "Giovedì": "CL-CM 10-12KM",
+      "Venerdì": "RIPOSO",
+      "Sabato": "MTB 90’-120’ inserendo 5 tratti da 5’-8’ Z4-Z5",
+      "Domenica": "BICI 2-3 ORE pochissimo D+"
+    }
+  },
+  {
+    "range": "20-26 APR",
+    "days": {
+      "Lunedì": "RIPOSO o RULLI Z1 20’- 30’",
+      "Martedì": "NUOTO MASTER",
+      "Mercoledì": "MTB 90’",
+      "Giovedì": "CL-CM 6-8KM",
+      "Venerdì": "RIPOSO",
+      "Sabato": "C.I. MTB personale universitario",
+      "Domenica": "C.I. MTB personale universitario"
+    }
+  }
+]
