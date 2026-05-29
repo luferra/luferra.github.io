@@ -1,65 +1,5 @@
 [
   {
-    "range": "20-26 APR",
-    "days": {
-      "Lunedì": "RIPOSO o RULLI Z1 20’- 30’",
-      "Martedì": "NUOTO MASTER",
-      "Mercoledì": "MTB 90’",
-      "Giovedì": "CL-CM 6-8KM",
-      "Venerdì": "RIPOSO",
-      "Sabato": "C.I. MTB personale universitario CUASSO AL MONTE (VA)",
-      "Domenica": "C.I. MTB personale universitario"
-    }
-  },
-  {
-    "range": "27 APR-3 MAG",
-    "days": {
-      "Lunedì": "RIPOSO o CORSA LEGGERA A PIACERE",
-      "Martedì": "BICI Z2 90’-120’",
-      "Mercoledì": "NUOTO MASTER",
-      "Giovedì": "CL-CM 10 KM",
-      "Venerdì": "BICI 60’-70’",
-      "Sabato": "BICI 5-6 ORE D+ 2.000-2.500",
-      "Domenica": "BICI 4-5 ORE D+ 1.500-2.000"
-    }
-  },
-  {
-    "range": "4-10 MAG",
-    "days": {
-      "Lunedì": "RIPOSO",
-      "Martedì": "NUOTO MASTER",
-      "Mercoledì": "BICI Z2 90’-120’",
-      "Giovedì": "CL-CM 10 KM",
-      "Venerdì": "BICI Z2 90’-120’",
-      "Sabato": "CORSO SUB",
-      "Domenica": "CORSO SUB"
-    }
-  },
-  {
-    "range": "11-17 MAG",
-    "days": {
-      "Lunedì": "BICI 90’-120’",
-      "Martedì": "BICI Z2 90’-120’",
-      "Mercoledì": "NUOTO MASTER",
-      "Giovedì": "CL-CM 10 KM",
-      "Venerdì": "RIPOSO o BICI LEGGERA MAX 90’",
-      "Sabato": "BICI 5-6 ORE D+ 2.000-2.500",
-      "Domenica": "BICI LEGGERA MAX 120’"
-    }
-  },
-  {
-    "range": "18-24 MAG",
-    "days": {
-      "Lunedì": "RIPOSO o CORSA LEGGERA A PIACERE",
-      "Martedì": "NUOTO MASTER",
-      "Mercoledì": "BICI Z2 70’ - 90’",
-      "Giovedì": "BICI 60’-70’",
-      "Venerdì": "RIPOSO",
-      "Sabato": "BICI 40’-60’",
-      "Domenica": "NOVE COLLI"
-    }
-  },
-  {
     "range": "25-31 MAG",
     "days": {
       "Lunedì": "RIPOSO",
@@ -69,6 +9,78 @@
       "Venerdì": "RIPOSO",
       "Sabato": "CORSA A PIACERE",
       "Domenica": "BICI o CORSA A PIACERE"
+    }
+  },
+  {
+    "range": "1-7 GIU",
+    "days": {
+      "Lunedì": "RIPOSO o BICI 60’",
+      "Martedì": "RISC+ 3-4 X 1.000 CM-CV REC 1’30”",
+      "Mercoledì": "NUOTO MASTER",
+      "Giovedì": "CL-CM 4-5KM + CM-CV 2-3KM",
+      "Venerdì": "BICI 60’-80’",
+      "Sabato": "NUOTO MASTER",
+      "Domenica": "BICI A PIACERE"
+    }
+  },
+  {
+    "range": "8-14 GIU",
+    "days": {
+      "Lunedì": "RIPOSO o CL- CM 20’-30’",
+      "Martedì": "BICI Z2 70’-90’ inserendo 5-6 “sparate” da 3’ che fniscono a tutta",
+      "Mercoledì": "NUOTO MASTER",
+      "Giovedì": "RISC+ 3-4 X 1.000 CM-CV REC 1’30”",
+      "Venerdì": "RIPOSO o CL- CM 20’-30’",
+      "Sabato": "NUOTO MASTER",
+      "Domenica": "BICI A PIACERE"
+    }
+  },
+  {
+    "range": "15-21 GIU",
+    "days": {
+      "Lunedì": "RIPOSO o CL- CM 20’-30’",
+      "Martedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Mercoledì": "RISC+ 3-4 X 1.000 CM-CV REC 1’30",
+      "Giovedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Venerdì": "BICI Z2 70’-90’ inserendo 5-6 “sparate” da 3’ che fniscono a tutta",
+      "Sabato": "CL-CM 10-13KM",
+      "Domenica": "BICI A PIACERE"
+    }
+  },
+  {
+    "range": "22-28 GIU",
+    "days": {
+      "Lunedì": "RIPOSO o CL- CM 20’-30’",
+      "Martedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Mercoledì": "BICI LEGGERA",
+      "Giovedì": "NUOTO RISC 300 + 2-3 X 500 REC 1’",
+      "Venerdì": "RIPOSO o CL- CM 20’-30’",
+      "Sabato": "TRAVERSATA NUOTO 1.500",
+      "Domenica": "BICI A PIACERE"
+    }
+  },
+  {
+    "range": "29GIU – 5 LUG",
+    "days": {
+      "Lunedì": "RIPOSO o CL- CM 20’-30’",
+      "Martedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Mercoledì": "RISC+ 3-4 X 1.000 CM-CV REC 1’30",
+      "Giovedì": "NUOTO RISC 300 + 2 X 200 REC 1’ + 2 X 300 REC 1. +2 X 200 REC 1’ + libero a piacere",
+      "Venerdì": "BICI Z2 70’-90’ inserendo 5-6 “sparate” da 3’ che fniscono a tutta",
+      "Sabato": "CL-CM 10-13KM",
+      "Domenica": "BICI A PIACERE"
+    }
+  },
+  {
+    "range": "6-12 LUG",
+    "days": {
+      "Lunedì": "LIBERO A PIACERE",
+      "Martedì": "GRANDE GIORNO: LAUREA",
+      "Mercoledì": "DA DEFINIRE",
+      "Giovedì": "DA DEFINIRE",
+      "Venerdì": "DA DEFINIRE",
+      "Sabato": "DA DEFINIRE",
+      "Domenica": "DA DEFINIRE"
     }
   }
 ]
