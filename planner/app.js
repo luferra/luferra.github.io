@@ -1,86 +1,62 @@
 // Dati iniziali (puoi incollare qui tutte le settimane convertite in JSON)
 let weeksData = [
   {
-    "range": "25-31 MAG",
+    "range": "17-23 AGO",
+    "days": {
+      "Lunedì": "—",
+      "Martedì": "BICI Z2 90’ O CL- CM 20’-30’",
+      "Mercoledì": "BICI Z2 90’ O CL- CM 20’-30’",
+      "Giovedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Venerdì": "BICI Z2 90’ O CL-CM 20’-30’",
+      "Sabato": "BICI A PIACERE",
+      "Domenica": "CL-CM 8-10 KM [ corri con l fresco ]"
+    }
+  },
+  {
+    "range": "24 -30 AGO",
+    "days": {
+      "Lunedì": "RIPOSO o BICI LEGGERA",
+      "Martedì": "BICI 90’ inserendo 5 tratti da 1’ Z5-Z6 + 2’-3’ Z4",
+      "Mercoledì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Giovedì": "BICI 90’ inserendo 5 tratti da 5’-6’ Z4- Z5",
+      "Venerdì": "RISC+ 3-4 X 1.000 CM-CV",
+      "Sabato": "BICI LEGGERA 90’-120’",
+      "Domenica": "BICI 90’ inserendo 5 tratti da 1’ Z5-Z6 + 2’- 3’ Z4"
+    }
+  },
+  {
+    "range": "31 AGO – 6 SETT",
     "days": {
       "Lunedì": "RIPOSO",
-      "Martedì": "BICI O CORSA MOLTO LEGGERA",
-      "Mercoledì": "NUOTO MASTER",
-      "Giovedì": "CL-CM 10 KM",
-      "Venerdì": "RIPOSO",
-      "Sabato": "CORSA A PIACERE",
-      "Domenica": "BICI o CORSA A PIACERE"
+      "Martedì": "BICI 90’ inserendo 5 tratti da 1’ Z5-Z6 + 2’-3’ Z4",
+      "Mercoledì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Giovedì": "BICI 90’ inserendo 5 tratti da 5’-6’ Z4- Z5",
+      "Venerdì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Sabato": "RIPOSO o CL- CM 8-10 KM VOLONTARIO TRIATHLON LOCARNO",
+      "Domenica": "RIPOSO VOLONTARIO TRIATHLON LOCARNO"
     }
   },
   {
-    "range": "1-7 GIU",
+    "range": "7-13 SETT",
     "days": {
-      "Lunedì": "RIPOSO o BICI 60’",
-      "Martedì": "RISC+ 3-4 X 1.000 CM-CV REC 1’30”",
-      "Mercoledì": "NUOTO MASTER",
-      "Giovedì": "CL-CM 4-5KM + CM-CV 2-3KM",
-      "Venerdì": "BICI 60’-80’",
-      "Sabato": "NUOTO MASTER",
-      "Domenica": "BICI A PIACERE"
+      "Lunedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Martedì": "BICI 60’ inserendo 3 tratti da 1’ Z5-Z6 + 2’-3’ Z4",
+      "Mercoledì": "BICI LEGGERA o corsa 20’-25’",
+      "Giovedì": "BICI 40’-50’ inserendo 3 tratti da 1’ Z5-Z6 + 1’ Z4",
+      "Venerdì": "BICI LEGGERA",
+      "Sabato": "NAZIONALI CICLISMO PERS. UNI 30 KM VICENZA",
+      "Domenica": "CICLOTURISTI CA 50 KM D+ 500 VICENZA"
     }
   },
   {
-    "range": "8-14 GIU",
+    "range": "14-20 SETT",
     "days": {
-      "Lunedì": "RIPOSO o CL- CM 20’-30’",
-      "Martedì": "BICI Z2 70’-90’ inserendo 5-6 “sparate” da 3’ che fniscono a tutta",
-      "Mercoledì": "NUOTO MASTER",
-      "Giovedì": "RISC+ 3-4 X 1.000 CM-CV REC 1’30”",
-      "Venerdì": "RIPOSO o CL- CM 20’-30’",
-      "Sabato": "NUOTO MASTER",
-      "Domenica": "BICI A PIACERE"
-    }
-  },
-  {
-    "range": "15-21 GIU",
-    "days": {
-      "Lunedì": "RIPOSO o CL- CM 20’-30’",
-      "Martedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Mercoledì": "RISC+ 3-4 X 1.000 CM-CV REC 1’30",
-      "Giovedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Venerdì": "BICI Z2 70’-90’ inserendo 5-6 “sparate” da 3’ che fniscono a tutta",
-      "Sabato": "CL-CM 10-13KM",
-      "Domenica": "BICI A PIACERE"
-    }
-  },
-  {
-    "range": "22-28 GIU",
-    "days": {
-      "Lunedì": "RIPOSO o CL- CM 20’-30’",
-      "Martedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Mercoledì": "BICI LEGGERA",
-      "Giovedì": "NUOTO RISC 300 + 2-3 X 500 REC 1’",
-      "Venerdì": "RIPOSO o CL- CM 20’-30’",
-      "Sabato": "TRAVERSATA NUOTO 1.500",
-      "Domenica": "BICI A PIACERE"
-    }
-  },
-  {
-    "range": "29GIU – 5 LUG",
-    "days": {
-      "Lunedì": "RIPOSO o CL- CM 20’-30’",
-      "Martedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Mercoledì": "RISC+ 3-4 X 1.000 CM-CV REC 1’30",
-      "Giovedì": "NUOTO RISC 300 + 2 X 200 REC 1’ + 2 X 300 REC 1. +2 X 200 REC 1’ + libero a piacere",
-      "Venerdì": "BICI Z2 70’-90’ inserendo 5-6 “sparate” da 3’ che fniscono a tutta",
-      "Sabato": "CL-CM 10-13KM",
-      "Domenica": "BICI A PIACERE"
-    }
-  },
-  {
-    "range": "6-12 LUG",
-    "days": {
-      "Lunedì": "LIBERO A PIACERE",
-      "Martedì": "GRANDE GIORNO: LAUREA",
-      "Mercoledì": "DA DEFINIRE",
-      "Giovedì": "DA DEFINIRE",
-      "Venerdì": "DA DEFINIRE",
-      "Sabato": "DA DEFINIRE",
+      "Lunedì": "RIPOSO",
+      "Martedì": "CL-CM 8-10 KM",
+      "Mercoledì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
+      "Giovedì": "CL-CM 6-8KM",
+      "Venerdì": "NUOTO_FORZ A_BRACCIA_A EROBICO_SOG LIA_VO2MAX_ 2.000",
+      "Sabato": "BICI A PIACERE",
       "Domenica": "DA DEFINIRE"
     }
   }
