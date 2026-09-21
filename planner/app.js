@@ -1,63 +1,75 @@
 // Dati iniziali (puoi incollare qui tutte le settimane convertite in JSON)
 let weeksData = [
   {
-    "range": "17-23 AGO",
-    "days": {
-      "Lunedì": "—",
-      "Martedì": "BICI Z2 90’ O CL- CM 20’-30’",
-      "Mercoledì": "BICI Z2 90’ O CL- CM 20’-30’",
-      "Giovedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Venerdì": "BICI Z2 90’ O CL-CM 20’-30’",
-      "Sabato": "BICI A PIACERE",
-      "Domenica": "CL-CM 8-10 KM [ corri con l fresco ]"
-    }
-  },
-  {
-    "range": "24 -30 AGO",
-    "days": {
-      "Lunedì": "RIPOSO o BICI LEGGERA",
-      "Martedì": "BICI 90’ inserendo 5 tratti da 1’ Z5-Z6 + 2’-3’ Z4",
-      "Mercoledì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Giovedì": "BICI 90’ inserendo 5 tratti da 5’-6’ Z4- Z5",
-      "Venerdì": "RISC+ 3-4 X 1.000 CM-CV",
-      "Sabato": "BICI LEGGERA 90’-120’",
-      "Domenica": "BICI 90’ inserendo 5 tratti da 1’ Z5-Z6 + 2’- 3’ Z4"
-    }
-  },
-  {
-    "range": "31 AGO – 6 SETT",
+    "range": "21-27 SETT",
     "days": {
       "Lunedì": "RIPOSO",
-      "Martedì": "BICI 90’ inserendo 5 tratti da 1’ Z5-Z6 + 2’-3’ Z4",
-      "Mercoledì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Giovedì": "BICI 90’ inserendo 5 tratti da 5’-6’ Z4- Z5",
-      "Venerdì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Sabato": "RIPOSO o CL- CM 8-10 KM VOLONTARIO TRIATHLON LOCARNO",
-      "Domenica": "RIPOSO VOLONTARIO TRIATHLON LOCARNO"
-    }
-  },
-  {
-    "range": "7-13 SETT",
-    "days": {
-      "Lunedì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Martedì": "BICI 60’ inserendo 3 tratti da 1’ Z5-Z6 + 2’-3’ Z4",
-      "Mercoledì": "BICI LEGGERA o corsa 20’-25’",
-      "Giovedì": "BICI 40’-50’ inserendo 3 tratti da 1’ Z5-Z6 + 1’ Z4",
+      "Martedì": "BICI 60’- 90’",
+      "Mercoledì": "RISC + 6-8 X 1.000 CM-CV REC 1’",
+      "Giovedì": "RISC+ CM 10- 13KM",
       "Venerdì": "BICI LEGGERA",
-      "Sabato": "NAZIONALI CICLISMO PERS. UNI 30 KM VICENZA",
-      "Domenica": "CICLOTURISTI CA 50 KM D+ 500 VICENZA"
+      "Sabato": "CL-CM 10-12KM",
+      "Domenica": "TRAVERSATA. ALBISOLA 1 MIGLIO + STAFFETTA 2 X 400"
     }
   },
   {
-    "range": "14-20 SETT",
+    "range": "28 SETT- 4 OTT",
+    "days": {
+      "Lunedì": "CORSA LEGGERA A PIACERE",
+      "Martedì": "RISC + 6-8 X 1.000 CM-CV REC 1’",
+      "Mercoledì": "RISC+ CM 10- 13KM",
+      "Giovedì": "RIPOSO o BICI LEGGERA",
+      "Venerdì": "RISC + 6-8 X 1.000 CM-CV REC 1’",
+      "Sabato": "RISC+ CM 10- 13KM",
+      "Domenica": "BICI A PIACERE MAX 150’"
+    }
+  },
+  {
+    "range": "5-11 OTT",
     "days": {
       "Lunedì": "RIPOSO",
-      "Martedì": "CL-CM 8-10 KM",
-      "Mercoledì": "NUOTO VARIAZIONI VELOCITA' 2.200 - 2800",
-      "Giovedì": "CL-CM 6-8KM",
-      "Venerdì": "NUOTO_FORZ A_BRACCIA_A EROBICO_SOG LIA_VO2MAX_ 2.000",
-      "Sabato": "BICI A PIACERE",
-      "Domenica": "DA DEFINIRE"
+      "Martedì": "RISC+ 5 X 1.000 CV/SAN REC 1’30”",
+      "Mercoledì": "RISC+ 4 X 1.000 CV/SAN REC 1’30”",
+      "Giovedì": "NUOTO MASTER 7:00_8:15",
+      "Venerdì": "RISC+ 2-3 X 1.000 CV/SAN REC 1’30”",
+      "Sabato": "NUOTO MASTER 13:30_15:00",
+      "Domenica": "NAZIONALI CORSA 10 KM - MILANO"
+    }
+  },
+  {
+    "range": "12-18 OTT",
+    "days": {
+      "Lunedì": "RIPOSO",
+      "Martedì": "NUOTO MASTER 20.30_22.00",
+      "Mercoledì": "CL 13-15KM",
+      "Giovedì": "NUOTO MASTER 7:00_8:15",
+      "Venerdì": "CL 13-15KM",
+      "Sabato": "NUOTO MASTER 13:30_15:00",
+      "Domenica": "CL 20-22 KM"
+    }
+  },
+  {
+    "range": "19 -25 OTT",
+    "days": {
+      "Lunedì": "RIPOSO",
+      "Martedì": "NUOTO MASTER 20.30_22.00",
+      "Mercoledì": "CL-CM 7-8KM",
+      "Giovedì": "NUOTO MASTER 7:00_8:15",
+      "Venerdì": "CORSA LEGGERA NUOTO LEGGERO",
+      "Sabato": "NAZIONALI NUOTO – LIGNANO SABBIADORO",
+      "Domenica": "CORSA LEGGERA A PIACERE"
+    }
+  },
+  {
+    "range": "26 OTT-1 NOV",
+    "days": {
+      "Lunedì": "RISC + 8-10 X 1.000 CM-CV REC 1’",
+      "Martedì": "NUOTO MASTER 20.30_22.00",
+      "Mercoledì": "RISC + 8-10 X 1.000 CM-CV REC 1’",
+      "Giovedì": "NUOTO MASTER 7:00_8:15",
+      "Venerdì": "RISC+ 6 X 1.000 CV/SAN REC 1’30”",
+      "Sabato": "NUOTO MASTER 13:30_15:00",
+      "Domenica": "CL 25-28KM"
     }
   }
 ];
