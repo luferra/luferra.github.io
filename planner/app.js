@@ -1,75 +1,39 @@
 // Dati iniziali (puoi incollare qui tutte le settimane convertite in JSON)
 let weeksData = [
-  {
-    "range": "21-27 SETT",
-    "days": {
-      "Lunedì": "RIPOSO",
-      "Martedì": "BICI 60’- 90’",
-      "Mercoledì": "RISC + 6-8 X 1.000 CM-CV REC 1’",
-      "Giovedì": "RISC+ CM 10- 13KM",
-      "Venerdì": "BICI LEGGERA",
-      "Sabato": "CL-CM 10-12KM",
-      "Domenica": "TRAVERSATA. ALBISOLA 1 MIGLIO + STAFFETTA 2 X 400"
-    }
-  },
-  {
-    "range": "28 SETT- 4 OTT",
-    "days": {
-      "Lunedì": "CORSA LEGGERA A PIACERE",
-      "Martedì": "RISC + 6-8 X 1.000 CM-CV REC 1’",
-      "Mercoledì": "RISC+ CM 10- 13KM",
-      "Giovedì": "RIPOSO o BICI LEGGERA",
-      "Venerdì": "RISC + 6-8 X 1.000 CM-CV REC 1’",
-      "Sabato": "RISC+ CM 10- 13KM",
-      "Domenica": "BICI A PIACERE MAX 150’"
-    }
-  },
-  {
-    "range": "5-11 OTT",
-    "days": {
-      "Lunedì": "RIPOSO",
-      "Martedì": "RISC+ 5 X 1.000 CV/SAN REC 1’30”",
-      "Mercoledì": "RISC+ 4 X 1.000 CV/SAN REC 1’30”",
-      "Giovedì": "NUOTO MASTER 7:00_8:15",
-      "Venerdì": "RISC+ 2-3 X 1.000 CV/SAN REC 1’30”",
-      "Sabato": "NUOTO MASTER 13:30_15:00",
-      "Domenica": "NAZIONALI CORSA 10 KM - MILANO"
-    }
-  },
-  {
-    "range": "12-18 OTT",
-    "days": {
-      "Lunedì": "RIPOSO",
-      "Martedì": "NUOTO MASTER 20.30_22.00",
-      "Mercoledì": "CL 13-15KM",
-      "Giovedì": "NUOTO MASTER 7:00_8:15",
-      "Venerdì": "CL 13-15KM",
-      "Sabato": "NUOTO MASTER 13:30_15:00",
-      "Domenica": "CL 20-22 KM"
-    }
-  },
-  {
+    {
     "range": "19 -25 OTT",
     "days": {
       "Lunedì": "RIPOSO",
-      "Martedì": "NUOTO MASTER 20.30_22.00",
-      "Mercoledì": "CL-CM 7-8KM",
-      "Giovedì": "NUOTO MASTER 7:00_8:15",
-      "Venerdì": "CORSA LEGGERA NUOTO LEGGERO",
+      "Martedì": "LL-CL 60'",
+      "Mercoledì": "LL-CL 60'",
+      "Giovedì": "RULLI Z1-Z2 40-45'",
+      "Venerdì": "RISC + 5x1000 CV REC 1'",
       "Sabato": "NAZIONALI NUOTO – LIGNANO SABBIADORO",
-      "Domenica": "CORSA LEGGERA A PIACERE"
+      "Domenica": "LL-CL 15-18KM"
     }
   },
   {
     "range": "26 OTT-1 NOV",
     "days": {
-      "Lunedì": "RISC + 8-10 X 1.000 CM-CV REC 1’",
-      "Martedì": "NUOTO MASTER 20.30_22.00",
-      "Mercoledì": "RISC + 8-10 X 1.000 CM-CV REC 1’",
-      "Giovedì": "NUOTO MASTER 7:00_8:15",
-      "Venerdì": "RISC+ 6 X 1.000 CV/SAN REC 1’30”",
-      "Sabato": "NUOTO MASTER 13:30_15:00",
-      "Domenica": "CL 25-28KM"
+      "Lunedì": "RIPOSO",
+      "Martedì": "RISC + 5x1000 CV REC 1'",
+      "Mercoledì": "CL-CM 60'",
+      "Giovedì": "RULLI Z1-Z2 40-45'",
+      "Venerdì": "RISC + 5 X 1.000 CV REC 1'",
+      "Sabato": "LL-CL 15-18KM",
+      "Domenica": "RULLI A PIACERE"
+    }
+  },
+  {
+    "range": "2 NOV-8 NOV",
+    "days": {
+      "Lunedì": "RIPOSO",
+      "Martedì": "RISC + 8x1000 CV REC 1'",
+      "Mercoledì": "CL-CM 70-90'",
+      "Giovedì": "NUOTO",
+      "Venerdì": "RISC + 8 X 1.000 CV REC 1'",
+      "Sabato": "NUOTO",
+      "Domenica": "LL-CL 22-25KM"
     }
   }
 ];
